@@ -6,3 +6,5 @@ azure-storage-file-share==12.3.0
 azure-functions
 pyjwt
 requests
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
